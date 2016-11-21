@@ -14,6 +14,9 @@
 		E8BE28B71DE2D53F009612FA /* AddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE28B61DE2D53F009612FA /* AddViewController.m */; };
 		E8BE28BA1DE2D551009612FA /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE28B91DE2D551009612FA /* MineViewController.m */; };
 		E8BE28BD1DE2D55D009612FA /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE28BC1DE2D55D009612FA /* NewsViewController.m */; };
+		E8BE28C01DE2DDCE009612FA /* BDJTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE28BF1DE2DDCE009612FA /* BDJTabBar.m */; };
+		E8BE28C41DE2DF1A009612FA /* UIButton+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE28C31DE2DF1A009612FA /* UIButton+Util.m */; };
+		E8BE28C91DE2E7F6009612FA /* UIView+Util.m in Sources */ = {isa = PBXBuildFile; fileRef = E8BE28C81DE2E7F6009612FA /* UIView+Util.m */; };
 		E8F6D8611DE2C781003F1253 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F6D8601DE2C781003F1253 /* main.m */; };
 		E8F6D8641DE2C781003F1253 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F6D8631DE2C781003F1253 /* AppDelegate.m */; };
 		E8F6D8671DE2C781003F1253 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8F6D8661DE2C781003F1253 /* ViewController.m */; };
@@ -252,6 +255,14 @@
 		E8BE28B91DE2D551009612FA /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
 		E8BE28BB1DE2D55D009612FA /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
 		E8BE28BC1DE2D55D009612FA /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		E8BE28BE1DE2DDCE009612FA /* BDJTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJTabBar.h; sourceTree = "<group>"; };
+		E8BE28BF1DE2DDCE009612FA /* BDJTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BDJTabBar.m; sourceTree = "<group>"; };
+		E8BE28C21DE2DF1A009612FA /* UIButton+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+Util.h"; sourceTree = "<group>"; };
+		E8BE28C31DE2DF1A009612FA /* UIButton+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+Util.m"; sourceTree = "<group>"; };
+		E8BE28C51DE2E1C6009612FA /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E8BE28C61DE2E617009612FA /* BDJConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BDJConst.h; sourceTree = "<group>"; };
+		E8BE28C71DE2E7F6009612FA /* UIView+Util.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Util.h"; sourceTree = "<group>"; };
+		E8BE28C81DE2E7F6009612FA /* UIView+Util.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Util.m"; sourceTree = "<group>"; };
 		E8F6D85C1DE2C781003F1253 /* 百思不得姐.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "百思不得姐.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E8F6D8601DE2C781003F1253 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		E8F6D8621DE2C781003F1253 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -506,6 +517,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E8BE28C11DE2DECE009612FA /* catehory(类别) */ = {
+			isa = PBXGroup;
+			children = (
+				E8BE28C21DE2DF1A009612FA /* UIButton+Util.h */,
+				E8BE28C31DE2DF1A009612FA /* UIButton+Util.m */,
+				E8BE28C71DE2E7F6009612FA /* UIView+Util.h */,
+				E8BE28C81DE2E7F6009612FA /* UIView+Util.m */,
+			);
+			path = "catehory(类别)";
+			sourceTree = "<group>";
+		};
 		E8F6D8531DE2C780003F1253 = {
 			isa = PBXGroup;
 			children = (
@@ -553,6 +575,7 @@
 		E8F6D8761DE2C9C2003F1253 /* classes(类文件) */ = {
 			isa = PBXGroup;
 			children = (
+				E8BE28C11DE2DECE009612FA /* catehory(类别) */,
 				E8F6D87F1DE2C9C2003F1253 /* Common(公共) */,
 				E8F6D8801DE2C9C2003F1253 /* Essence(精华) */,
 				E8F6D8881DE2C9C2003F1253 /* News(最新) */,
@@ -636,6 +659,10 @@
 				E8BE28AA1DE2D1EC009612FA /* BaseViewController.m */,
 				E8BE28AC1DE2D240009612FA /* BDJTabBarController.h */,
 				E8BE28AD1DE2D240009612FA /* BDJTabBarController.m */,
+				E8BE28BE1DE2DDCE009612FA /* BDJTabBar.h */,
+				E8BE28BF1DE2DDCE009612FA /* BDJTabBar.m */,
+				E8BE28C51DE2E1C6009612FA /* PrefixHeader.pch */,
+				E8BE28C61DE2E617009612FA /* BDJConst.h */,
 			);
 			path = "Common(公共)";
 			sourceTree = "<group>";
@@ -1356,6 +1383,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E8BE28C01DE2DDCE009612FA /* BDJTabBar.m in Sources */,
+				E8BE28C91DE2E7F6009612FA /* UIView+Util.m in Sources */,
+				E8BE28C41DE2DF1A009612FA /* UIButton+Util.m in Sources */,
 				E8F6D8671DE2C781003F1253 /* ViewController.m in Sources */,
 				E8BE28AB1DE2D1EC009612FA /* BaseViewController.m in Sources */,
 				E8F6D8641DE2C781003F1253 /* AppDelegate.m in Sources */,
@@ -1485,6 +1515,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐/classes(类文件)/Common(公共)/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -1499,6 +1530,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PREFIX_HEADER = "百思不得姐/classes(类文件)/Common(公共)/PrefixHeader.pch";
 				INFOPLIST_FILE = "百思不得姐/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
